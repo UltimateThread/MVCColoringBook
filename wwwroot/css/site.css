@@ -32,3 +32,29 @@ textarea {
         z-index: 10 !important;
     }
 }
+
+.color-picker {
+    width:50px; 
+    height: 50px; 
+    vertical-align: middle;
+}
+
+.color-picker-container {
+    margin-top: 25px; 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.image-viewer-container {
+    border: 10px groove brown; 
+    margin-top: 25px; 
+    box-shadow: 10px 10px 5px #888888;
+}
+
+button {
+    margin-left:15px;
+}
+
+.url-input {
+    width: 750px;
+}
