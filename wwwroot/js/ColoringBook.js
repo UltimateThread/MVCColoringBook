@@ -50,7 +50,7 @@ parentStyle.width = "100%";
 
 // Set the image into the canvas
 var img = new Image();
-currentImage = "images/forest.jpg";
+currentImage = "images/ColoringPages/forest.jpg";
 img.src = currentImage;
 img.onload = function () {
    context.drawImage(img, 0, 0, img.width, img.height, 0, 0, canvas.width, canvas.height);
@@ -147,7 +147,7 @@ function loadImage() {
          // Set the image into the canvas
          var img = new Image();
          currentImage = response.result;
-         img.src = 'images/' + currentImage;
+         img.src = 'images/ColoringPages/' + currentImage;
          img.onload = function () {
             context.drawImage(img, 0, 0, img.width, img.height, 0, 0, canvas.width, canvas.height);
          };

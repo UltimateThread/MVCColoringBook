@@ -7068,6 +7068,7 @@
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
     ],
     "DNX,Version=v4.5.1": [
+      "fx/System.Drawing >= 4.0.0",
       "fx/System.Net >= 4.0.0",
       "fx/System.Net.Http >= 4.0.0",
       "fx/System.Net.Http.WebRequest >= 4.0.0",
