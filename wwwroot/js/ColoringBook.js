@@ -37,6 +37,7 @@ document.getElementById('colorCircleBlue').addEventListener("click", updateColor
 document.getElementById('colorCirclePurple').addEventListener("click", updateColor);
 document.getElementById('colorCirclePink').addEventListener("click", updateColor);
 document.getElementById('submitUrl').addEventListener("click", loadImage);
+document.getElementById('urlInput').addEventListener("click", selectAll);
 
 // Style the canvas to center in the browser
 var style = canvas.style;
@@ -126,6 +127,11 @@ function updateColor(sender, e) {
          paintColor = { a: 255, r: 255, g: 105, b: 180 };
          break;
    }
+}
+
+function selectAll(sender, e) {
+      console.log(sender.srcElement.id);
+      document.getElementById(sender.srcElement.id).select();
 }
 
 // Load a new image into the canvas
